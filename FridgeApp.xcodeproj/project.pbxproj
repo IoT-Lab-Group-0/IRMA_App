@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		864435FA261FD6FA0030BDFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864435F9261FD6FA0030BDFD /* AppDelegate.swift */; };
+		864435FC261FD6FA0030BDFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864435FB261FD6FA0030BDFD /* SceneDelegate.swift */; };
+		864435FE261FD6FA0030BDFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864435FD261FD6FA0030BDFD /* ViewController.swift */; };
+		86443601261FD6FA0030BDFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864435FF261FD6FA0030BDFD /* Main.storyboard */; };
+		86443603261FD6FB0030BDFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86443602261FD6FB0030BDFD /* Assets.xcassets */; };
+		86443606261FD6FB0030BDFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86443604261FD6FB0030BDFD /* LaunchScreen.storyboard */; };
+		86443611261FD6FB0030BDFD /* FridgeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86443610261FD6FB0030BDFD /* FridgeAppTests.swift */; };
+		8644361C261FD6FB0030BDFD /* FridgeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8644361B261FD6FB0030BDFD /* FridgeAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8644360D261FD6FB0030BDFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 864435EE261FD6FA0030BDFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 864435F5261FD6FA0030BDFD;
+			remoteInfo = FridgeApp;
+		};
+		86443618261FD6FB0030BDFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 864435EE261FD6FA0030BDFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 864435F5261FD6FA0030BDFD;
+			remoteInfo = FridgeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		864435F6261FD6FA0030BDFD /* FridgeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FridgeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		864435F9261FD6FA0030BDFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		864435FB261FD6FA0030BDFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		864435FD261FD6FA0030BDFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86443600261FD6FA0030BDFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86443602261FD6FB0030BDFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86443605261FD6FB0030BDFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86443607261FD6FB0030BDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8644360C261FD6FB0030BDFD /* FridgeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FridgeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86443610261FD6FB0030BDFD /* FridgeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeAppTests.swift; sourceTree = "<group>"; };
+		86443612261FD6FB0030BDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86443617261FD6FB0030BDFD /* FridgeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FridgeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8644361B261FD6FB0030BDFD /* FridgeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeAppUITests.swift; sourceTree = "<group>"; };
+		8644361D261FD6FB0030BDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		864435F3261FD6FA0030BDFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86443609261FD6FB0030BDFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86443614261FD6FB0030BDFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		864435ED261FD6FA0030BDFD = {
+			isa = PBXGroup;
+			children = (
+				864435F8261FD6FA0030BDFD /* FridgeApp */,
+				8644360F261FD6FB0030BDFD /* FridgeAppTests */,
+				8644361A261FD6FB0030BDFD /* FridgeAppUITests */,
+				864435F7261FD6FA0030BDFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		864435F7261FD6FA0030BDFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				864435F6261FD6FA0030BDFD /* FridgeApp.app */,
+				8644360C261FD6FB0030BDFD /* FridgeAppTests.xctest */,
+				86443617261FD6FB0030BDFD /* FridgeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		864435F8261FD6FA0030BDFD /* FridgeApp */ = {
+			isa = PBXGroup;
+			children = (
+				864435F9261FD6FA0030BDFD /* AppDelegate.swift */,
+				864435FB261FD6FA0030BDFD /* SceneDelegate.swift */,
+				864435FD261FD6FA0030BDFD /* ViewController.swift */,
+				864435FF261FD6FA0030BDFD /* Main.storyboard */,
+				86443602261FD6FB0030BDFD /* Assets.xcassets */,
+				86443604261FD6FB0030BDFD /* LaunchScreen.storyboard */,
+				86443607261FD6FB0030BDFD /* Info.plist */,
+			);
+			path = FridgeApp;
+			sourceTree = "<group>";
+		};
+		8644360F261FD6FB0030BDFD /* FridgeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				86443610261FD6FB0030BDFD /* FridgeAppTests.swift */,
+				86443612261FD6FB0030BDFD /* Info.plist */,
+			);
+			path = FridgeAppTests;
+			sourceTree = "<group>";
+		};
+		8644361A261FD6FB0030BDFD /* FridgeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8644361B261FD6FB0030BDFD /* FridgeAppUITests.swift */,
+				8644361D261FD6FB0030BDFD /* Info.plist */,
+			);
+			path = FridgeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		864435F5261FD6FA0030BDFD /* FridgeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86443620261FD6FB0030BDFD /* Build configuration list for PBXNativeTarget "FridgeApp" */;
+			buildPhases = (
+				864435F2261FD6FA0030BDFD /* Sources */,
+				864435F3261FD6FA0030BDFD /* Frameworks */,
+				864435F4261FD6FA0030BDFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FridgeApp;
+			productName = FridgeApp;
+			productReference = 864435F6261FD6FA0030BDFD /* FridgeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8644360B261FD6FB0030BDFD /* FridgeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86443623261FD6FB0030BDFD /* Build configuration list for PBXNativeTarget "FridgeAppTests" */;
+			buildPhases = (
+				86443608261FD6FB0030BDFD /* Sources */,
+				86443609261FD6FB0030BDFD /* Frameworks */,
+				8644360A261FD6FB0030BDFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8644360E261FD6FB0030BDFD /* PBXTargetDependency */,
+			);
+			name = FridgeAppTests;
+			productName = FridgeAppTests;
+			productReference = 8644360C261FD6FB0030BDFD /* FridgeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86443616261FD6FB0030BDFD /* FridgeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86443626261FD6FB0030BDFD /* Build configuration list for PBXNativeTarget "FridgeAppUITests" */;
+			buildPhases = (
+				86443613261FD6FB0030BDFD /* Sources */,
+				86443614261FD6FB0030BDFD /* Frameworks */,
+				86443615261FD6FB0030BDFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86443619261FD6FB0030BDFD /* PBXTargetDependency */,
+			);
+			name = FridgeAppUITests;
+			productName = FridgeAppUITests;
+			productReference = 86443617261FD6FB0030BDFD /* FridgeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		864435EE261FD6FA0030BDFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					864435F5261FD6FA0030BDFD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					8644360B261FD6FB0030BDFD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 864435F5261FD6FA0030BDFD;
+					};
+					86443616261FD6FB0030BDFD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 864435F5261FD6FA0030BDFD;
+					};
+				};
+			};
+			buildConfigurationList = 864435F1261FD6FA0030BDFD /* Build configuration list for PBXProject "FridgeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 864435ED261FD6FA0030BDFD;
+			productRefGroup = 864435F7261FD6FA0030BDFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				864435F5261FD6FA0030BDFD /* FridgeApp */,
+				8644360B261FD6FB0030BDFD /* FridgeAppTests */,
+				86443616261FD6FB0030BDFD /* FridgeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		864435F4261FD6FA0030BDFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86443606261FD6FB0030BDFD /* LaunchScreen.storyboard in Resources */,
+				86443603261FD6FB0030BDFD /* Assets.xcassets in Resources */,
+				86443601261FD6FA0030BDFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8644360A261FD6FB0030BDFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86443615261FD6FB0030BDFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		864435F2261FD6FA0030BDFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864435FE261FD6FA0030BDFD /* ViewController.swift in Sources */,
+				864435FA261FD6FA0030BDFD /* AppDelegate.swift in Sources */,
+				864435FC261FD6FA0030BDFD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86443608261FD6FB0030BDFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86443611261FD6FB0030BDFD /* FridgeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86443613261FD6FB0030BDFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8644361C261FD6FB0030BDFD /* FridgeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8644360E261FD6FB0030BDFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 864435F5261FD6FA0030BDFD /* FridgeApp */;
+			targetProxy = 8644360D261FD6FB0030BDFD /* PBXContainerItemProxy */;
+		};
+		86443619261FD6FB0030BDFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 864435F5261FD6FA0030BDFD /* FridgeApp */;
+			targetProxy = 86443618261FD6FB0030BDFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		864435FF261FD6FA0030BDFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86443600261FD6FA0030BDFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86443604261FD6FB0030BDFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86443605261FD6FB0030BDFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8644361E261FD6FB0030BDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8644361F261FD6FB0030BDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86443621261FD6FB0030BDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FridgeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.FridgeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86443622261FD6FB0030BDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FridgeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.FridgeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86443624261FD6FB0030BDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FridgeAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.FridgeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FridgeApp.app/FridgeApp";
+			};
+			name = Debug;
+		};
+		86443625261FD6FB0030BDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FridgeAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.FridgeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FridgeApp.app/FridgeApp";
+			};
+			name = Release;
+		};
+		86443627261FD6FB0030BDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FridgeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.FridgeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FridgeApp;
+			};
+			name = Debug;
+		};
+		86443628261FD6FB0030BDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FridgeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.FridgeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FridgeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		864435F1261FD6FA0030BDFD /* Build configuration list for PBXProject "FridgeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8644361E261FD6FB0030BDFD /* Debug */,
+				8644361F261FD6FB0030BDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86443620261FD6FB0030BDFD /* Build configuration list for PBXNativeTarget "FridgeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86443621261FD6FB0030BDFD /* Debug */,
+				86443622261FD6FB0030BDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86443623261FD6FB0030BDFD /* Build configuration list for PBXNativeTarget "FridgeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86443624261FD6FB0030BDFD /* Debug */,
+				86443625261FD6FB0030BDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86443626261FD6FB0030BDFD /* Build configuration list for PBXNativeTarget "FridgeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86443627261FD6FB0030BDFD /* Debug */,
+				86443628261FD6FB0030BDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 864435EE261FD6FA0030BDFD /* Project object */;
+}
